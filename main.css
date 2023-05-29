@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  height: 300px;
+  position: relative;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+header .top {
+  background-color: black;
+  color: #fffefe;
+  font-weight: 600;
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+}
+
+header h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 100px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+main h3 {
+  text-align: center;
+  margin: 0;
+  position: sticky;
+  background-color: #fffefe;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  transition: height 0.3s ease-in-out;
+}
+
+h3.shrink {
+  height: 30px;
+}
+
+hr {
+  width: 73%;
+  text-align: center;
+  padding-top: 3px;
+  background-color: #3d3d3d;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+main {
+  font-weight: 400;
+}
+
+.block {
+  display: flex;
+  padding-bottom: 200px;
+  font-weight: 500;
+}
+
+.picture img {
+  width: 600px;
+  padding-left: 170px;
+  padding-right: 60px;
+  filter: drop-shadow(2px 2px 2px #c3c3c3);
+}
+
+.explanation {
+  width: 287px;
+  padding-right: 150px;
+}
+
+.explanation #title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: 0;
+  color: black;
+}
+
+.explanation p {
+  font-size: 16px;
+  color: #3d3d3d;
+}
+
+footer {
+  display: block;
+  background-color: #3d3d3d;
+}
+
+.footer_group {
+  position: relative;
+  color: #c3c3c3;
+  padding: 25px 25px 25px 100px;
+}
+
+.footer_group .footer_logo {
+  margin-right: 25px;
+  width: 60px;
+  float: left;
+  margin-top: -7px;
+}
+
+.footer_group p {
+  margin: 3px;
+}
